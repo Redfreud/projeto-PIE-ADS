@@ -7,7 +7,7 @@ global $conn;
 
 ?>
 
-<form action="?page=salvar" method="post">
+<form class="container" action="?page=salvar" method="post">
     <input type="hidden" name="acao" value="editar">
     <input type="hidden" name="id" value="<?php print $row->id; ?>">
     <div class="mb-3">
